@@ -1,6 +1,7 @@
 #ifndef asyncDelay_h
 #define asyncDelay_h
 
+// Define a void type that will be used for the callback function
 typedef void (*GeneralFunction) ();
 
 class asyncDelay{
